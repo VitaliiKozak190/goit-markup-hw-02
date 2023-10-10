@@ -13,7 +13,7 @@ a {
 }
 
 h1 {
-  color: var(--WHITE, #0b0101);
+  color: #0b0101;
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -80,8 +80,8 @@ h1 {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
   letter-spacing: 1.12px;
+  line-height: 1.07;
 }
 .hero-section {
   background: #2e2f42;
@@ -89,10 +89,18 @@ h1 {
 
 .order-button {
   background: #4d5ae5;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
-.order-button:hover {
-  background: #404bbf;
+.order-button:hover,
+.order-button:focus {
+  background-color: #404bbf;
 }
+
 .hero-image-button {
   color: #fff;
   font-size: 16px;
