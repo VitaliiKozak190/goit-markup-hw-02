@@ -63,7 +63,7 @@ h1 {
   text-transform: uppercase;
 }
 .link-navigation {
-  color: #434455;
+  color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -78,15 +78,15 @@ h1 {
   font-style: normal;
 }
 .header-contacts {
-  color: #2e2f42;
+  color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/* .header-contacts:focus,
+.header-contacts:focus,
 .header-contacts:hover {
   color: #404bbf;
-} */
+}
 
 /* Hero Section 1*/
 
